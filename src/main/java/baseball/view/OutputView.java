@@ -2,11 +2,11 @@ package baseball.view;
 
 public class OutputView {
 
-    public static void printMessage(String message) {
+    public static void printMessage(Message message) {
         System.out.println(message);
     } //print START, NOTHING, SUCCESS, END
 
-    public static void printResult(String s, String message) {
+    public static void printResult(String s, Message message) {
         System.out.println(s + message);
     } //STRIKE, BALL
 
