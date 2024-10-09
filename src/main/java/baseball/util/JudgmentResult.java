@@ -17,11 +17,15 @@ public class JudgmentResult {
     }
 
     public boolean judgmentStrike() {
-        return compareNumber.getStrike() != 0 && compareNumber.getBall() == 0;
+        return (0 < compareNumber.getStrike() && compareNumber.getStrike() < 3) && compareNumber.getBall() == 0;
     }
 
     public boolean judgmentBall() {
-        return compareNumber.getStrike() == 0;
+        return compareNumber.getStrike() == 0 && compareNumber.getBall() != 0;
+    }
+
+    public boolean judgmentStrikeAndBall() {
+        return compareNumber.getStrike() > 0 && compareNumber.getBall() > 0;
     }
 
     public String getStrike() {
