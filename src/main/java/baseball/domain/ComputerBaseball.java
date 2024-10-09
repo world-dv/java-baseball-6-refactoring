@@ -3,7 +3,7 @@ package baseball.domain;
 import camp.nextstep.edu.missionutils.Randoms;
 
 import java.util.HashSet;
-import java.util.Set;
+import java.util.LinkedHashSet;
 
 public class ComputerBaseball {
 
@@ -14,7 +14,7 @@ public class ComputerBaseball {
     }
 
     public String createComputerNumber() {
-        Set<Integer> computer = new HashSet<>();
+        LinkedHashSet<Integer> computer = new LinkedHashSet<>();
         while (computer.size() < 3) {
             computer.add(createRandomNumber());
         }
@@ -25,7 +25,7 @@ public class ComputerBaseball {
         return Randoms.pickNumberInRange(1, 9);
     }
 
-    public String changeListToString(Set<Integer> list) {
+    public String changeListToString(LinkedHashSet<Integer> list) {
         return list.toString().replaceAll("[^1-9]", "");
     }
 
