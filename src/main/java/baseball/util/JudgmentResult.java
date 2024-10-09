@@ -17,7 +17,7 @@ public class JudgmentResult {
     }
 
     public boolean judgmentStrike() {
-        return (0 < compareNumber.getStrike() && compareNumber.getStrike() < 3) && compareNumber.getBall() == 0;
+        return compareNumber.getStrike() > 0 && compareNumber.getBall() == 0;
     }
 
     public boolean judgmentBall() {

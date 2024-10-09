@@ -36,8 +36,8 @@ public class BaseballGame {
 
     public void printResult(JudgmentResult judgmentResult) {
         printNothing(judgmentResult);
-        printOut(judgmentResult);
         printStrike(judgmentResult);
+        printOut(judgmentResult);
         printBall(judgmentResult);
         printStrikeAndBall(judgmentResult);
     }
