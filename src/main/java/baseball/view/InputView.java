@@ -4,13 +4,8 @@ import camp.nextstep.edu.missionutils.Console;
 
 public class InputView {
 
-    public String startGame() {
-        System.out.println(Message.INPUT);
+    public String inputUser(String message) {
+        System.out.println(message);
         return Console.readLine();
-    }
-
-    public String resetGame() {
-        System.out.println(Message.RESTART);
-        return Console.readLine();
-    }
+    } //INPUT, RESTART
 }
