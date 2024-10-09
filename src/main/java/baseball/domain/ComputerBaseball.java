@@ -28,4 +28,8 @@ public class ComputerBaseball {
     public String changeListToString(Set<Integer> list) {
         return list.toString();
     }
+
+    public String getComputerNumber() {
+        return computerNumber;
+    }
 }
