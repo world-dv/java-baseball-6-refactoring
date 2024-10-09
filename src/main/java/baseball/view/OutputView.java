@@ -7,7 +7,7 @@ public class OutputView {
     } //print START, NOTHING, SUCCESS, END
 
     public void printResult(String s, String message) {
-        System.out.println(s + Message.STRIKE);
+        System.out.println(s + message);
     } //STRIKE, BALL
 
     public void printBallAndStrike(String b, String s) {
