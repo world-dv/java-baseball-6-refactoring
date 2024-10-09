@@ -26,7 +26,7 @@ public class ComputerBaseball {
     }
 
     public String changeListToString(Set<Integer> list) {
-        return list.toString();
+        return list.toString().replaceAll("[^1-9]", "");
     }
 
     public String getComputerNumber() {
