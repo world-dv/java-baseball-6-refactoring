@@ -6,13 +6,9 @@ public class OutputView {
         System.out.println(message);
     } //print START, NOTHING, SUCCESS, END
 
-    public void printStrike(String s) {
+    public void printResult(String s, String message) {
         System.out.println(s + Message.STRIKE);
-    }
-
-    public void printBall(String b) {
-        System.out.println(b + Message.BALL);
-    }
+    } //STRIKE, BALL
 
     public void printBallAndStrike(String b, String s) {
         System.out.println(b + Message.BALL + " " + s + Message.STRIKE);
