@@ -10,7 +10,7 @@ public class OutputView {
         System.out.println(s + message.getMessage());
     } //STRIKE, BALL
 
-    public static void printBallAndStrike(String b, String s) {
-        System.out.println(b + Message.BALL.getMessage() + " " + s + Message.STRIKE.getMessage());
+    public static void printBallAndStrike(String b, Message bMessage, String s, Message sMessage) {
+        System.out.println(b + bMessage.getMessage() + " " + s + sMessage.getMessage());
     }
 }
