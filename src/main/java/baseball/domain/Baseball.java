@@ -36,4 +36,8 @@ public class Baseball {
         }
         return numberSet.size() == 3;
     }
+
+    public String getNumber() {
+        return number;
+    }
 }
