@@ -25,7 +25,7 @@
 
 - 사용자
   - [x] 숫자 3개 입력
-  - [ ] 잘못된 값을 입력할 경우 IllegalArgumentException 발생 후 종료
+  - [x] 잘못된 값을 입력할 경우 IllegalArgumentException 발생 후 종료
   - [x] 게임 종료 후 게임 재시작, 종료에 대한 입력
 - 컴퓨터
   - [x] 숫자 야구 게임 시작 문구 출력
